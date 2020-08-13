@@ -321,7 +321,7 @@ libvmaf_rc = both_libraries(
         libvmaf_rc_feature_static_lib.extract_all_objects(),
         libvmaf_rc_cpu_static_lib.extract_all_objects(),
     ],
-    install: false,
+    install: true,
 )
 
 pkg_mod = import('pkgconfig')
